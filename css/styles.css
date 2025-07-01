@@ -430,6 +430,12 @@ a {
     padding: 100px 0;
 }
 
+.container-footer {
+    display: flex;
+    align-items: baseline;
+    margin-left: 125px;
+}
+
 .logo-container {
     margin-right: 120px;
 }
@@ -451,14 +457,12 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    margin-bottom: 16px;
 }
 
 .footer-box {
     display: flex;
-    width: 208px;
-    height: 80px;
-    margin: 100px 692px 132px 0;
-    padding-left: 120px;
+    flex-direction: column;
 }
 
 .footer-media {
